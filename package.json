@@ -1,16 +1,17 @@
 {
   "name": "merge-guard-bot",
   "version": "1.0.0",
-  "description": "a guard bot that prevent unintentional github pull requestmerge",
+  "description": "prevent unintentional github pull request merge",
   "author": "Sandy Akbar Dewangga <sandy.a.dewangga@gdplabs.id>",
   "license": "ISC",
   "repository": "https://github.com//merge-guard-bot.git",
-  "homepage": "https://github.com//merge-guard-bot",
+  "homepage": "https://github.com/apps/merge-guard-bot",
   "bugs": "https://github.com//merge-guard-bot/issues",
   "keywords": [
     "probot",
     "github",
-    "probot-app"
+    "probot-app",
+    "merge-guard-bot"
   ],
   "scripts": {
     "dev": "nodemon",
@@ -20,7 +21,8 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "probot": "^7.2.0"
+    "probot": "^7.2.0",
+    "probot-metadata": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^24.0.0",
